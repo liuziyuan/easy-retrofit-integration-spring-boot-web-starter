@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.liuziyuan</groupId>
     <artifactId>easy-retrofit-integration-spring-boot-web-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <description>easy-retrofit-integration-spring-boot-web-starter, if use springboot web , you can use this starter</description>
 
     <url>https://github.com/liuziyuan/${project.artifactId}</url>
@@ -42,8 +42,8 @@
         <commons.lang3.version>3.14.0</commons.lang3.version>
         <junit.version>4.13.2</junit.version>
         <retrofit.version>2.11.0</retrofit.version>
-        <retrofit.spring.boot.starter.version>1.0.0</retrofit.spring.boot.starter.version>
-        <retrofit.adapter.simple.body.version>1.1.0</retrofit.adapter.simple.body.version>
+        <retrofit.spring.boot.starter.version>1.1.3-SNAPSHOT</retrofit.spring.boot.starter.version>
+        <retrofit.adapter.simple.body.version>1.1.1</retrofit.adapter.simple.body.version>
     </properties>
 
     <dependencies>
@@ -56,13 +56,13 @@
 
         <dependency>
             <groupId>io.github.easyretrofit</groupId>
-            <artifactId>easy-retrofit-spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter</artifactId>
             <version>${retrofit.spring.boot.starter.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>io.github.liuziyuan</groupId>
-            <artifactId>retrofit-adapter-simple-body</artifactId>
+            <groupId>io.github.easyretrofit</groupId>
+            <artifactId>adapter-simple-body</artifactId>
             <version>${retrofit.adapter.simple.body.version}</version>
         </dependency>
 

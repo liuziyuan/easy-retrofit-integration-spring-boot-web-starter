@@ -1,9 +1,9 @@
 package io.github.liuziyuan.retrofit.integration.spring.boot.web;
 
 import io.github.easyretrofit.core.RetrofitInterceptorExtension;
+import io.github.easyretrofit.core.delegate.BaseExceptionDelegate;
 import io.github.easyretrofit.core.exception.RetrofitExtensionException;
 import io.github.easyretrofit.core.extension.BaseInterceptor;
-import io.github.easyretrofit.core.proxy.BaseExceptionDelegate;
 
 import java.lang.annotation.Annotation;
 
